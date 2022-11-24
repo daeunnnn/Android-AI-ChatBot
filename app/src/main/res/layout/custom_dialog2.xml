@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/custom_dialog"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="300dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8">
+
+            <LinearLayout
+                android:id="@+id/frame_ESFP"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:gravity="center|clip_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="20dp"
+                        android:background="#FF9800"
+                        android:fontFamily="@font/gangwon"
+                        android:gravity="center"
+                        android:text="ESFP"
+                        android:textColor="#FFE0B3"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/esfp_name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dajungdagam"
+                        android:gravity="center"
+                        android:text="호기심이 많고 개방적이에요."
+                        android:textColor="#6C0000"
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/frame_ESTJ"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:gravity="center|clip_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="20dp"
+                        android:background="#2196F3"
+                        android:fontFamily="@font/gangwon"
+                        android:gravity="center"
+                        android:text="ESTJ"
+                        android:textColor="#C7E4FB"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/estj_name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dajungdagam"
+                        android:gravity="center"
+                        android:text="규칙에 따라 움직이는 것을 좋아해요."
+                        android:textColor="#6C0000"
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/frame_ESTP"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:gravity="center|clip_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="20dp"
+                        android:background="#FF9800"
+                        android:fontFamily="@font/gangwon"
+                        android:gravity="center"
+                        android:text="ESTP"
+                        android:textColor="#FFE0B3"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/estp_name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dajungdagam"
+                        android:gravity="center"
+                        android:text="느긋하지만 타협을 잘해요."
+                        android:textColor="#6C0000"
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/frame_ISFP"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:gravity="center|clip_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="20dp"
+                        android:background="#FF9800"
+                        android:fontFamily="@font/gangwon"
+                        android:gravity="center"
+                        android:text="ISFP"
+                        android:textColor="#FFE0B3"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/isfp_name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dajungdagam"
+                        android:gravity="center"
+                        android:text="겸손하고 삶의 여유를 만끽해요."
+                        android:textColor="#6C0000"
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/frame_INFJ"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:gravity="center|clip_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="20dp"
+                        android:background="#4CAF50"
+                        android:fontFamily="@font/gangwon"
+                        android:gravity="center"
+                        android:text="INFJ"
+                        android:textColor="#C4F896"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/infj_name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dajungdagam"
+                        android:gravity="center"
+                        android:text="통찰력이 좋고 공익을 중요시해요."
+                        android:textColor="#6C0000"
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/frame_ENFJ"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:gravity="center|clip_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="20dp"
+                        android:background="#4CAF50"
+                        android:fontFamily="@font/gangwon"
+                        android:gravity="center"
+                        android:text="ENFJ"
+                        android:textColor="#C4F896"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/enfj_name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dajungdagam"
+                        android:gravity="center"
+                        android:text="감정표현을 잘하지만 상처를 잘 받아요. "
+                        android:textColor="#6C0000"
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/frame_ENFP"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:gravity="center|clip_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="20dp"
+                        android:background="#4CAF50"
+                        android:fontFamily="@font/gangwon"
+                        android:gravity="center"
+                        android:text="ENFP"
+                        android:textColor="#C4F896"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/enfp_name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dajungdagam"
+                        android:gravity="center"
+                        android:text="호기심이 많고 즉흥을 좋아합니다."
+                        android:textColor="#6C0000"
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/frame_ISFJ"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:gravity="center|clip_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="20dp"
+                        android:background="#2196F3"
+                        android:fontFamily="@font/gangwon"
+                        android:gravity="center"
+                        android:text="ISFJ"
+                        android:textColor="#C7E4FB"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/isfj_name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dajungdagam"
+                        android:gravity="center"
+                        android:text="타인에게는 관대하지만 본인에게는 엄격합니다."
+                        android:textColor="#6C0000"
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/frame_ISTJ"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:gravity="center|clip_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="20dp"
+                        android:background="#2196F3"
+                        android:fontFamily="@font/gangwon"
+                        android:gravity="center"
+                        android:text="ISTJ"
+                        android:textColor="#C7E4FB"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/istj_name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dajungdagam"
+                        android:gravity="center"
+                        android:text="다른 사람의 주의를 끄는 일에는 관심이 없습니다."
+                        android:textColor="#6C0000"
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/frame_ISTP"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:gravity="center|clip_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="20dp"
+                        android:background="#FF9800"
+                        android:fontFamily="@font/gangwon"
+                        android:gravity="center"
+                        android:text="ISTP"
+                        android:textColor="#FFE0B3"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/istp_name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dajungdagam"
+                        android:gravity="center"
+                        android:text="과묵하지만 분석력이 뛰어나요. "
+                        android:textColor="#6C0000"
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
